@@ -1436,3 +1436,35 @@ Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/auth?code=20LPW52Q5D11VNURKJ2MWL5HKJRHC4LQHMYZW0NWG1DE3XGQ" for 76.99.232.168 at 2019-07-16 19:27:39 +0000
+Cannot render console from 76.99.232.168! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"20LPW52Q5D11VNURKJ2MWL5HKJRHC4LQHMYZW0NWG1DE3XGQ"}
+Redirected to http://67.205.188.72:51450/
+Completed 302 Found in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.99.232.168 at 2019-07-16 19:27:39 +0000
+Cannot render console from 76.99.232.168! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SNU4MTNPBTCLYGGWHFJZ3I2FDRY3TDG5HRFVQUANPZWRG1R0&response_type=code&redirect_uri=http%3A%2F%2F67.205.188.72%3A51450%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YJYTCW40VXQCK43YNQFOYR5WBQMG3LFIKZ0WBPCF4XKSERST" for 76.99.232.168 at 2019-07-16 19:27:48 +0000
+Cannot render console from 76.99.232.168! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YJYTCW40VXQCK43YNQFOYR5WBQMG3LFIKZ0WBPCF4XKSERST"}
+Redirected to http://67.205.188.72:51450/
+Completed 302 Found in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.99.232.168 at 2019-07-16 19:27:48 +0000
+Cannot render console from 76.99.232.168! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SNU4MTNPBTCLYGGWHFJZ3I2FDRY3TDG5HRFVQUANPZWRG1R0&response_type=code&redirect_uri=http%3A%2F%2F67.205.188.72%3A51450%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
