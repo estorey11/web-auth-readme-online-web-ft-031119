@@ -13,6 +13,7 @@ class ApplicationController < ActionController::Base
       client_id = ENV['FOURSQUARE_CLIENT_ID']
       redirect_uri = CGI.escape("http://67.205.188.72:51450/auth")
       foursquare_url = "https://foursquare.com/oauth2/authenticate?client_id=#{client_id}&response_type=code&redirect_uri=#{redirect_uri}"
+      binding.pry
       redirect_to foursquare_url unless logged_in?
     end
     
